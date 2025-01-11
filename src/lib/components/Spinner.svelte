@@ -42,13 +42,13 @@
 		}
 	});
 </script>
-<section class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+<!-- <section class="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4"> -->
     {#if animeArray.length > 0}
         {#each animeArray as anime, i}
             <AnimeCard {anime} />
         {/each}
     {/if}
-</section>
+<!-- </section> -->
 
 <div class="flex w-full items-center justify-center" bind:this={spinnerContainer}>
     {#if fetching}

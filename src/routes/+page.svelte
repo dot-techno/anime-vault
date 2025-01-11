@@ -11,9 +11,9 @@
 			{#each data.animes as anime}
 				<AnimeCard {anime} />
 			{/each}
+            <!-- <div id="spinner-container"> -->
+                <Spinner />
+            <!-- </div> -->
 		</section>
-		<div id="spinner-container">
-            <Spinner />
-        </div>
 	</main>
 </div>
